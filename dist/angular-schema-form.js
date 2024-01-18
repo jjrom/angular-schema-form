@@ -1,7 +1,7 @@
 /*!
  * angular-schema-form
  * @version 1.0.0-alpha.5
- * @date Thu, 18 Jan 2024 17:09:45 GMT
+ * @date Thu, 18 Jan 2024 17:32:05 GMT
  * @link https://github.com/json-schema-form/angular-schema-form
  * @license MIT
  * Copyright (c) 2014-2024 JSON Schema Form
@@ -87,7 +87,7 @@ module.exports = angular;
 /* WEBPACK VAR INJECTION */(function(global, setImmediate) {/*!
  * json-schema-form-core
  * @version 1.0.0-alpha.5
- * @date Thu, 18 Jan 2024 17:09:44 GMT
+ * @date Thu, 18 Jan 2024 17:32:04 GMT
  * @link https://github.com/json-schema-form/json-schema-form-core
  * @license MIT
  * Copyright (c) 2014-2024 JSON Schema Form
