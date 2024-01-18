@@ -142,6 +142,9 @@ export default function($parse, $compile, $interpolate, sfErrorMessage, sfPath, 
               scope.$eval(form.onClick, { '$event': $event, 'form': form });
             }
           }
+          else if (typeof scope.$parent.$parent.$parent.$ctrl.handleFormClick === 'function') {
+            scope.$parent.$parent.$parent.$ctrl.handleFormClick($event, form);
+          }
         };
 
         /**
